@@ -73,26 +73,7 @@ section {
     padding: 50px 0;
 }
 
-/* .main-btn {
-    display: inline-block;
-    border-radius: 50px;
-    transition: all .4s ease-in-out;
-    padding: 10px 27px;
-    background-color: transparent;
-    border: 2px solid var(--gray-color);
-    color: var(--text-gray);
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    text-decoration: none;
-}
 
-.main-btn:hover {
-    background-color: var(--primary-color);
-    border-color: var(--primary-color);
-    color: var(--text-white);
-} */
 
 h1 {
     font-size: 54px;
@@ -262,7 +243,7 @@ button {
     border-radius: 50px;
     font-size: 15px;
     font-weight: 500;
-    /* transition: all 0.45s cubic-bezier(0, 0, 0.2, 1); */
+    transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
     display: inline-block;
     color: var(--text-gray);
     border: 0;
