@@ -237,7 +237,7 @@ button {
 
 /* 3 Banner */
 .banner_wrapper {
-    width: 100%;
+    width: auto;
     height: auto;
     min-height: 690px;
     background-image: url('../images/myImage.jpg');

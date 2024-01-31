@@ -45,9 +45,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
-                        <li class="nav-item mt-3 mt-lg-0">
-                            <a class="btn btn-outline-danger" href="#contact">Hire Me</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -60,8 +58,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center text-md-start">
-                    <h6>WELCOME TO MY WORLD</h6>
-                    <h1>I’m Akshay Karande<br><span>Android Developer.</span></h1>
+                    <h6 style="color: antiquewhite;">WELCOME TO MY WORLD</h6>
+                    <h1>Hi I’m Akshay Karande<br><span>Android Developer.</span></h1>
                     <div class="mt-4">
                         <a class="btn btn-outline-danger" href="resume/Akshay's Resume.pdf">Download CV</a>
                     </div>
@@ -84,12 +82,12 @@
                 
                 <div class="col-lg-7 ps-lg-5 text-center text-lg-start" data-aos="fade-left">
                     <div class="my-3 my-lg-0">
-                        <span class="subtitle">My About Details</span>
+                        <span class="subtitle">Who am i ?</span>
 
                         <p>"Hi, I'm Akshay, an Android Development Apprentice with a passion for building innovative and
                             user-friendly mobile applications. As a recent graduate with a Master's degree in Computer
                             Application and a Bachelor's in Computer Applications, I have a strong foundation in Android
-                            app development, OOPS concepts, and database management using SQLite.</p>
+                            app development, OOPS concepts,java and kotlin.</p>
                     </div>
                     <div class="pt-4">
                         <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
@@ -103,7 +101,7 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-experiance" type="button" role="tab"
-                                    aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                                    aria-controls="pills-experiance" aria-selected="false">Experience</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
@@ -244,23 +242,27 @@
                             <a href="mailto:26akshaysoni@gmail.com">26akshaysoni@gmail.com</a>
                         </div>
                     </div>
-                    <form>
+      
+                    <form id="myForm">
                         <div class="mb-4">
-                            <input type="text" class="form-control " placeholder="Your Name..." autocomplete="off">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name..." autocomplete="off">
+                            <small class="text-danger" id="nameError"></small> <!-- Validation message -->
                         </div>
                         <div class="mb-4">
-                            <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+                            <input type="tel" class="form-control" id="phone" placeholder="Your Phone..." autocomplete="off">
+                            <small class="text-danger" id="phoneError"></small> <!-- Validation message -->
                         </div>
                         <div class="mb-4">
-                            <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email..." autocomplete="off">
+                            <small class="text-danger" id="emailError"></small> <!-- Validation message -->
                         </div>
                         <div class="mb-4">
-                            <input cols="40" rows="4" class="form-control" id="message" placeholder="Write a Message..."
-                                autocomplete="off">
+                            <textarea class="form-control" id="message" placeholder="Write a Message..." rows="4" autocomplete="off"></textarea>
+                            <small class="text-danger" id="messageError"></small> <!-- Validation message -->
                         </div>
-                        <!-- <button type="submit" class="main-btn">Submit</button> -->
-                        <button type="submit" class="btn btn-outline-danger">Submit</button>
+                        <button type="button" class="btn btn-outline-danger" onclick="validateForm()">Submit</button>
                     </form>
+                    
                 </div>
                 <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0" data-aos="zoom-out">
                     <img decoding="async" src="./images/my_image1.jpg" class="img-fluid">
@@ -299,7 +301,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
-                        <p class="mb-0">Copyright © 2023 <a href="#">Akshay</a>. All Rights Reserved.</p>
+                        <p class="mb-0">Copyright © 2024 <a href="#">Akshay</a>. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
